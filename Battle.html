@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Ricardo Liagnor: Battle Bards" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body class="w3-light-grey">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <!-- utrdciytfiytfvcikyv-->
+          <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="ricardo.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="io.png" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="lt.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div><br>
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-container">
+          <p><a class="w3-text-teal">When:</a> 2018</p>
+          <p><a class="w3-text-teal">Why:</a> McGameJam</p>
+          <p><a class="w3-text-teal">For:</a> Web</p>
+          <p><a class="w3-text-teal">How Long:</a> 3 days</p>
+          <p><a class="w3-text-teal">Who:</a> 7 friends (3 Programmers, 2 Sound Engineers, 2 Graphical Artists)</p>
+          <p><a class="w3-text-teal">With:</a> PixiJS + Docker + JS scripting</p>
+        </div>
+      </div>
+
+      <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Description</h2>
+
+            <div class="w3-container">
+              Play at:<a href="http://wailunlau.net"> http://wailunlau.net </a>
+              <br><br>
+              Controls: ENTER, QWER, Arrow keys.
+
+              <br><br>
+
+              You are an aspiring musician seeking greatness. Thus, you have decided to set out on a journey across time and space to meet the great masters.
+              <br><br>
+              You must dominate each of their musical style in a grand battle to hone your own talents and skills.
+              <br><br>
+              You will travel through the world (generated randomly) and enter battle against the musical masters you come across. When that happens, you will be placed on a musical grid that is constantly being showered by music notes. You must move around the grid with the arrow keys to dodge the incoming notes.
+              You will take damage if you get hit by a music note! <br>
+              Show the masters your skills by playing the notes by pressing the keys Q-W-E-R at the right time when the corresponding note arrives at the bottom of the screen. This will do damage to the master.
+              To defeat the enemy, you must lower their health to 0. Beware, you will take damage if you press the wrong keys or if you press them at the wrong time.
+              If your own health hits 0, it's game over.
+              <br><br>
+              May you be victorious.
+              <br>
+              <br><br>
+
+              Graphics: Yue Yang, Catherine Van
+              <br><br>
+              Programming: Wai Lau, Fredric Lam, Ricardo Liganor
+              <br><br>
+              Music: Olivia Chan, Artem Mikhalitsin
+              <br><br>
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>My Role</h2>
+
+            <div class="w3-container">
+
+              My role for this project was to create and optimize the main game loop, and to manage all graphical resources that were created. I also served as team leader for this project, the team and I collaborated in bringing this project to life.
+              <br><br>
+              Part of my duties were to create the main functionality of the game, as in, the controls, event handling, player motion gird, and the play area. 
+
+
+<!-- End Right Column -->
+</div>
+
+<!-- End Grid -->
+</div>
+
+<!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+<p >Find me on social media.</p>
+<a href="https://www.linkedin.com/in/ricardo-liganor" title="LinkedIN"><img src="in.png" alt="in" width="50" height="50"></a>
+<a href="https://www.facebook.com/ricardo.liganor" title="Facebook"><img src="fb.png" alt="fb" width="50" height="50"></a>
+<a href="https://github.com/Ricklig" title="Github"><img src="gh.png" alt="gh" width="50" height="50"></a>
+<a href="https://ricklig.itch.io/" title="Itch"><img src="io.png" alt="io" width="35" height="35"></a>
+<p>© 2018 Ricardo Liganor</p>
+</footer>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
