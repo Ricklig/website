@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Ricardo Liagnor: Battle Bards" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 * {box-sizing: border-box}
+a {text-decoration:none;}
+* {
+    box-sizing: border-box;
+}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -101,39 +108,138 @@ img {vertical-align: middle;}
 }
 </style>
 </head>
-<body>
 
-<div class="slideshow-container">
+<body class="w3-light-grey">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+        <a href = "lander.html">
+                <div class="w3-container w3-teal w3-center w3-margin-top">
+                <br>  Back <br><br>
+                </div>
+                <br>
+        </a>
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <!-- utrdciytfiytfvcikyv-->
+          <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="lt.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="lt1.JPG" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="lt2.JPG" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="lt3.JPG" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="lt4.JPG" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+        </div><br>
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-container">
+              <p><a class="w3-text-teal">When:</a> 2018</p>
+              <p><a class="w3-text-teal">Why:</a> Concordia Makes Games Gamejam</p>
+              <p><a class="w3-text-teal">For:</a> PC</p>
+              <p><a class="w3-text-teal">How Long:</a> 2 days</p>
+              <p><a class="w3-text-teal">Who:</a> 3 friends (2 Programmers, 1 Sound Engineer)</p>
+              <p><a class="w3-text-teal">With:</a> Unity + C# Scripting</p>
+            </div>
+      </div>
+
+      <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h1 class="w3-text-grey w3-padding-16"></i>Llama Trauma</h1>
+
+        </div>
+
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Description</h2>
+
+            <div class="w3-container">
+              Play at:<a href="https://ricklig.itch.io/llama-trauma"> https://itch.io </a>
+              <br><br>
+              Play with a friend, or challenge yourself to help both these llamas to the lake. In this epic saga, two llamas try helping their pal, the fish, to get home to the lake. Join these unliekely friends as they combat unfriendly terrain, and some development bugs and try to get the fish home!
+<br><br>
+The journey is full of jumping puzzles that will challenge any gamer, and don’t forget that llamas aren’t made for carrying fish! Keep an eye on the fish timer, or else the fish might slip off and gameover.
+
+<br><br>
+
+Thanks for playing! Watch out for that fish timer!
+<br><br>
+Sound Engineering: Felix Dore<br>
+Programmers: Ricardo Liganor, Artem Mikhalitsin
+              <br><br>
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>My Role</h2>
+
+            <div class="w3-container">
+
+              My role for this game was the co-designer and developper. Given the theme of unlikely friends, we conceptualized the basic gameplay we desired and got to work from there. From the begining I started mocking a prototype level and creating objects in the world to interact with.
+              I moved on then to player controls, and jumping mechanics. Once sorted, I worked on the COOP player controls, and setting up the fish passing scripts. I then worked on the graphics and animations, and tweaking some in game physics engines.
+              <br><br>
+
+            </div>
+
+<!-- End Right Column -->
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+<!-- End Grid -->
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+<!-- End Page Container -->
 </div>
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+<p >Find me on social media.</p>
+<a href="https://www.linkedin.com/in/ricardo-liganor" title="LinkedIN"><img src="in.png" alt="in" width="50" height="50"></a>
+<a href="https://www.facebook.com/ricardo.liganor" title="Facebook"><img src="fb.png" alt="fb" width="50" height="50"></a>
+<a href="https://github.com/Ricklig" title="Github"><img src="gh.png" alt="gh" width="50" height="50"></a>
+<a href="https://ricklig.itch.io/" title="Itch"><img src="io.png" alt="io" width="35" height="35"></a>
+<p>© 2018 Ricardo Liganor</p>
+</footer>
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
 <script>
 var slideIndex = 1;
@@ -163,6 +269,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
 </body>
-</html> 
+</html>
